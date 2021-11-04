@@ -161,7 +161,7 @@ def fetch_style_img(i):
         return None
 
 
-def main(x):
+def main():
     create_julia_fractal(complex(random.uniform(-0.9, 0.9), random.uniform(-0.9, 0.9)))
 
     i = random.randint(0, len(STYLE_IMG_URLS))
@@ -176,9 +176,8 @@ def main(x):
     content_image = load_img(CONTENT_FILE)
     stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
     image = tensor_to_image(stylized_image)
-    image.save(f'{ROOT_DIR}/julia/sample_{x}.png')
+    image.save(f'{ROOT_DIR}/julia/sample.png')
 
 
 if __name__ == "__main__":
-    for x in range(10):
-        main(x)
+    main()
