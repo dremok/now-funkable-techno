@@ -154,3 +154,5 @@ gan/data/
 julia/images
 julia/samples_500
 julia/samples_1000
+
+*/.DS_Store
