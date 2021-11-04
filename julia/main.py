@@ -31,6 +31,47 @@ STYLE_IMG_URLS = [
     'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/night-watch-the-famous-painting-2.jpeg',
     'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-persistence-of-memory-the-famous-painting-2.jpeg',
     'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/luncheon-on-the-boating-party-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/no-5-1948-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-lillies-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/landscape-with-full-of-icarus-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/las-meninas-the-famous-painting-4.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/three-musicians-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/a-sunday-afternoon-on-the-island-of-la-grande-jatt-2.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/impression-sunrise-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-triumph-of-galatea-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/view-of-toledo-1.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-tower-of-babel-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-dance-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-swing-1.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-flower-carrier-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-kiss-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/1200px-Vincent_Willem_van_Gogh_102.jpg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/whistlers-mother-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/bal-du-moulin-de-la-galette-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/magritte1icon.jpg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/cafe-terrace-at-night-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/american-gothic-2.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/les-demoiselles-davignon-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-grand-odalisque-1.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-liberty-leading-the-people-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/napoleon-crossing-the-alps-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-sleeping-gypsy-1.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/primavera-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/dogs-playing-poker-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/portrait-of-dora-maar-2.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/massacre-of-the-innocents-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/portrait-of-madame-recamier-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/sistine-chapel-ceiling-1.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-birth-of-venus-1.jpeg',
+    'https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/1200px-Van_Eyck_-_Arnolfini_Portrait.jpg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/school-of-athens-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/olympia-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-third-of-may-a-famous-painting-2.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/creation-of-adam-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-scream-famous-painting-2.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the_last_supper-the-famous-painting-2.jpeg',
+    'https://i2.wp.com/bookmypainting.com/wp-content/uploads/2019/06/girl-with-a-pearl-earring-the-famous-painting-2.jpeg',
+    'https://i1.wp.com/bookmypainting.com/wp-content/uploads/2019/06/mona-lisa-the-famous-paintings-2.jpeg',
 ]
 
 # Parameters
@@ -120,7 +161,7 @@ def fetch_style_img(i):
         return None
 
 
-def main():
+def main(x):
     create_julia_fractal(complex(random.uniform(-0.9, 0.9), random.uniform(-0.9, 0.9)))
 
     i = random.randint(0, len(STYLE_IMG_URLS))
@@ -135,8 +176,9 @@ def main():
     content_image = load_img(CONTENT_FILE)
     stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
     image = tensor_to_image(stylized_image)
-    image.save(f'{ROOT_DIR}/julia/sample.png')
+    image.save(f'{ROOT_DIR}/julia/sample_{x}.png')
 
 
 if __name__ == "__main__":
-    main()
+    for x in range(10):
+        main(x)
